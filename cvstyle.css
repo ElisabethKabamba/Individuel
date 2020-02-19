@@ -5,23 +5,24 @@
 .bodyy{
 
     position: relative;
-    width: 100vw;
+    width: 310px;
     height: 1024px;
 }
 
 .pfp{
-    position: absolute;
     width: 222px;
     height: 294px;
     left: 84px;
     top: 24px;
+    margin-top: 10px;
     background: url(IMG_1894.jpg);
     border-radius: 135px;
+    margin-left: 5em;
 }
 
 .board{
     position: absolute;
-    width: 393px;
+    width: 310px;
     height: 1024px;
     left: -1px;
     top: 0px;
@@ -29,11 +30,12 @@
 }
 
 .profile{
-    position: absolute;
-    width: 237px;
+    margin-left: 110px;
+    width: 147px;
     height: 93px;
     left: 125px;
     top: 335px;
+    margin-top: 20px;
     font-family: Fauna One;
     font-style: normal;
     font-weight: normal;
@@ -49,6 +51,7 @@
     height: 183px;
     left: 23px;
     top: 392px;
+    margin-left: 20px;
     font-family: Lohit Devanagari;
     font-style: normal;
     font-weight: normal;
@@ -61,10 +64,11 @@
 
 .Langues{
     position: absolute;
-    width: 252px;
+    width: 179px;
     height: 38px;
     left: 110px;
     top: 600px;
+    margin-left: -25px;
     font-family: Fauna One;
     font-style: normal;
     font-weight: normal;
@@ -72,15 +76,17 @@
     line-height: 44px;
     text-decoration-line: underline;
     color: #000000;
-    }
+}
 
 
-    .Ipsum{
+.Ipsum{
     position: absolute;
     width: 348px;
     height: 242px;
     left: 23px;
     top: 661px;
+    margin-left: 20px;
+    margin-top: 10px;
     font-family: Lohit Devanagari;
     font-style: normal;
     font-weight: normal;
@@ -91,14 +97,14 @@
 
 .nom{
     position: absolute;
-    width: 650px;
+    width: 500px;
     height: 67px;
     left: 440px;
     top: 32px;
     font-family: Convergence;
     font-style: normal;
     font-weight: normal;
-    font-size: 58px;
+    font-size: 50px;
     line-height: 68px;
     color: #000000;
 
@@ -107,14 +113,15 @@
 
 .experience{
     position: absolute;
-    width: 650px;
+    width: 500px;
     height: 44px;
     left: 440px;
     top: 119px;
+    margin-top: 10px;
     font-family: Fauna One;
     font-style: normal;
     font-weight: normal;
-    font-size: 33px;
+    font-size: 27px;
     line-height: 41px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.8);
@@ -125,8 +132,9 @@
     position: absolute;
     width: 650px;
     height: 52px;
-    left: 465px;
+    left: 440px;
     top: 182px;
+    margin-top: 10px;
     font-family: Fasthand;
     font-style: normal;
     font-weight: normal;
@@ -142,6 +150,7 @@
     height: 140px;
     left: 469px;
     top: 234px;
+    margin-top: 10px;
     font-family: Lohit Devanagari;
     font-style: normal;
     font-weight: normal;
@@ -154,8 +163,9 @@
     position: absolute;
     width: 650px;
     height: 50px;
-    left: 465px;
+    left: 440px;
     top: 381px;
+    margin-top: 10px;
     font-family: Fasthand;
     font-style: normal;
     font-weight: normal;
@@ -171,6 +181,7 @@
     height: 143.97px;
     left: 469px;
     top: 431px;
+    margin-top: 10px;
     font-family: Lohit Devanagari;
     font-style: normal;
     font-weight: normal;
@@ -181,7 +192,7 @@
 
 .formation{
     position: absolute;
-    width: 309px;
+    width: 202px;
     height: 50px;
     left: 711px;
     top: 575px;
@@ -197,10 +208,11 @@
 
 .ecole{
     position: absolute;
-    width: 612px;
+    width: 500px;
     height: 49px;
     left: 465px;
     top: 625px;
+    margin-top: 10px;
     font-family: Fasthand;
     font-style: normal;
     font-weight: normal;
@@ -212,10 +224,11 @@
 
 .lorem2{
     position: absolute;
-    width: 612px;
+    width: 500px;
     height: 78px;
     left: 469px;
     top: 683px;
+    margin-top: 10px;
     font-family: Lohit Devanagari;
     font-style: normal;
     font-weight: normal;
@@ -230,6 +243,7 @@
     height: 50px;
     left: 469px;
     top: 774px;
+    margin-top: 10px;
     font-family: Fasthand;
     font-style: normal;
     font-weight: normal;
@@ -241,10 +255,11 @@
 
 .lorem3{
     position: absolute;
-    width: 612px;
+    width: 500px;
     height: 85px;
     left: 469px;
     top: 835px;
+    margin-top: 10px;
     font-family: Lohit Devanagari;
     font-style: normal;
     font-weight: normal;
@@ -288,16 +303,22 @@
     .nom,
     .experience,
     .entreprise1,
-    .li1,
     .entreprise2,
-    .li2,
     .formation,
     .ecole,
-    .lorem2,
-    .universite,
-    .lorem3
+    .universite
     {
         left: 10px;
+    }
+    .li1,
+    .li2
+    {
+        left: 20px;
+    }
+    .lorem2,
+    .lorem3
+    {
+        left: 20px;
     }
     .board{
         top: 930px;
@@ -307,6 +328,7 @@
     .facebook{
         top: 1850px;
         left: 20px;
+        
     }
     .github{
         top: 1850px;
@@ -319,58 +341,318 @@
     
 }
 
-@media screen and (max-width:584px){
+@media screen and (max-width:661px){
     .nom{
-        left: 8px;
-        font-size: 30.5px;
+       left: 10px;
+        font-size: 50px;
     }
-    .experience,
+    .experience{
+        left: 10px;
+        font-size: 26px;
+        width: 500px;
+        margin-top: 0%;
+    }
     .formation
     {
-        left: 8px;
-        font-size: 17px;
+        left: 10px;
+        font-size: 25px;
     }
     .entreprise1,
     .entreprise2
     {
-        left: 8px;
-        font-size: 12.5px;
+        left: 10px;
+        font-size: 20px;
+        width: 500px;
     }
     .li1,
     .li2
     {
-        left: 8px;
-        font-size: 12.5px;
+        left: 30px;
+        font-size: 18px;
     }
     .lorem2,
     .lorem3
     {
-        left: 8px;
-        font-size: 13px;
+        left: 10px;
+        font-size: 18px;
     }
     
-    .ecole,
+    .ecole{
+        left: 10px;
+        font-size: 20px;
+    }
     .universite    
     {
-        left: 8px;
+        left: 10px;
+        font-size: 20px;
+    }
+    .pfp{
+        margin-left: 5% ;
+        margin-top: 6%;
+    }
+    .profile{
+       margin-left: 25px;
+       margin-top: 5%;
+    }
+    .Lorem{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: 5%;
+    }
+    .Langues{
+        margin-left: -90px;
+    }
+    .Ipsum{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    body{
+        text-align: center;
+    }
+    
+    .nom{
+        margin-left: 5%;
+        font-size: 35px;
+        width: 350px;
+    }
+    .experience{
+        margin-left: 2%;
+        font-size: 20px;
+        width: 380px;
+    }
+    .entreprise1,
+    .entreprise2
+    {
+        font-size: 16px;
+        width: 400px;
+    }
+    .li1,
+    .li2
+    {
+        left: 2%;
+        font-size: 16px;
+        width: 400px;
+    }
+    .formation
+    {
+        margin-left: 32%;
+        font-size: 20px;
+        width: 100px;
+    }
+    .lorem2,
+    .lorem3
+    {
+        margin-left: 6%;
+        font-size: 16px;
+        width: 350px;
+    }
+    
+    .ecole{
+        margin-left: 11%;
+        font-size: 18px;
+        width: 300px;
+    }
+    .universite    
+    {
+        font-size: 18px;
+        width: 310px;
+        margin-left: 8%;
+    }
+    .pfp{
+        margin-left: 0% ;
+        margin-top: 6%;
+    }
+    .profile{
+       margin-left: 35%;
+       margin-top: 2%;
+       font-size: 30px;
+       width: 100px;
+    }
+    .Lorem{
+        font-size: 19px;
+        margin-left: 6%;
+        margin-top: -1%;
+        width: 300px;    
+    }
+    .Langues{
+        margin-left: 4%;
+        font-size: 30px;
+        width: 100px;
+        margin-top: -2%;
+    }
+    .Ipsum{
+        margin-left: 5%;
+        font-size: 20px;
+        width: 320px;
+        margin-top: -1%;
+    }
+    .facebook{
+        margin-left: 45px;
+    }
+    .github{
+        margin-left: 65px;
+    }
+    .email{
+        margin-left: 85px;
+    }
+
+}
+@media screen and (max-width:400px){    
+    .nom{
+        margin-left: 2%;
+        font-size: 30.5px;
+        width: 320px;
+    }
+    .experience{
+        margin-left: 1%;
+        font-size: 19px;
+        width: 350px;
+    }
+    .entreprise1,
+    .entreprise2
+    {
+        margin-left: -2%;
+        font-size: 14px;
+        width: 370px;
+        margin-top: 1%;
+    }
+    .li1,
+    .li2
+    {
+        margin-left: 1%;
+        font-size: 14px;
+        width: 350px;
+    }
+    .formation
+    {
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    .lorem2,
+    .lorem3
+    {
+        margin-left: 0%;
+        font-size: 15px;
+    }
+    
+    .ecole{
+        margin-left: 8%;
+        font-size: 18px;
+    }
+    .universite    
+    {
+        margin-left: 7%;
         font-size: 18px;
     }
     .pfp{
-        left: 60px;
+        margin-left: 1% ;
+        margin-top: 6%;
     }
     .profile{
-        left: 100px;
+        margin-left: 35%;
+    }
+    .Lorem{
+        font-size: 16px;
+        margin-left: 5%;
+    }
+    .Langues{
+        margin-top: -50px;
+        margin-left: 0%;
+    }
+    .Ipsum{
+        margin-top: -40px;
+        margin-left: 0%;
+        font-size: 17px;
+    }
+    .facebook{
+        margin-left: 40px;
+    }
+    .github{
+        margin-left: 50px;
+    }
+    .email{
+        margin-left: 60px;
+    }
+
+}
+
+@media screen and (max-width:338px){
+    .nom{
+        margin-left: -2%;
+        font-size: 30.5px;
+        width: 310px;
+    }
+    .experience{
+        font-size: 17px;
+        margin-left: -2%;
+        width: 310px;
+    }
+    .entreprise1,
+    .entreprise2
+    {
+        margin-left: -2%;
+        font-size: 12.5px;
+        width: 310px;
+    }
+    .li1,
+    .li2
+    {
+        margin-left: -2%;
+        font-size: 12.5px;
+        width: 310px;
+    }
+    .formation
+    {
+        margin-left: 21%;
+        font-size: 17px;
+    }
+    .ecole
+    {
+        margin-left: -1%;
+        font-size: 18px;
+    }
+    .universite
+    {
+        margin-left: -3%;
+        font-size: 18px;
+    }
+    .lorem2,
+    .lorem3
+    {
+        margin-left: -2%;
+        font-size: 13px;
+        width: 310px;
+    }
+    .pfp{
+        margin-left: 2% ;
+        margin-top: 6%;
+    }
+    .profile{
+        margin-left: 30%;
     }
     .Lorem{
         font-size: 17px;
-        left: 13px;
+        margin-left: -3%;
     }
     .Langues{
-        left: 90px;
+        margin-left: -10%;
     }
     .Ipsum{
         font-size: 17px;
-        left: 13px;
+        margin-left: -10%;
     }
-
+    .facebook{
+        margin-left: 10px;
+    }
+    .github{
+        margin-left: 20px;
+    }
+    .email{
+        margin-left: 30px;
+    }
+    
 }
