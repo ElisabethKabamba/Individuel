@@ -10,9 +10,10 @@
 }
 
 .pfp{
+    position: relative;
     width: 222px;
     height: 294px;
-    left: 84px;
+    left: -38px;
     top: 24px;
     margin-top: 10px;
     background: url(IMG_1894.jpg);
@@ -30,7 +31,7 @@
 }
 
 .profile{
-    margin-left: 110px;
+    margin-left: 80px;
     width: 147px;
     height: 93px;
     left: 125px;
@@ -47,9 +48,9 @@
 
 .Lorem{
     position: absolute;
-    width: 330px;
+    width: 290px;
     height: 183px;
-    left: 23px;
+    left: -3px;
     top: 392px;
     margin-left: 20px;
     font-family: Lohit Devanagari;
@@ -66,7 +67,7 @@
     position: absolute;
     width: 179px;
     height: 38px;
-    left: 110px;
+    left: 90px;
     top: 600px;
     margin-left: -25px;
     font-family: Fauna One;
@@ -81,9 +82,9 @@
 
 .Ipsum{
     position: absolute;
-    width: 348px;
+    width: 280px;
     height: 242px;
-    left: 23px;
+    left: -3px;
     top: 661px;
     margin-left: 20px;
     margin-top: 10px;
@@ -387,8 +388,8 @@
         font-size: 20px;
     }
     .pfp{
-        margin-left: 5% ;
-        margin-top: 6%;
+        margin-left: 10% ;
+        margin-top: 2%;
     }
     .profile{
        margin-left: 25px;
@@ -396,14 +397,14 @@
     }
     .Lorem{
         font-size: 20px;
-        margin-left: 0px;
-        margin-top: 5%;
+        margin-left: 3%;
+        margin-top: 2%;
     }
     .Langues{
-        margin-left: -90px;
+        margin-left: -12%;
     }
     .Ipsum{
-        margin-left: 0px;
+        margin-left: 3%;
         font-size: 20px;
     }
 
@@ -463,29 +464,29 @@
         margin-left: 8%;
     }
     .pfp{
-        margin-left: 0% ;
-        margin-top: 6%;
+        margin-left: 18% ;
+        margin-top: 2%;
     }
     .profile{
        margin-left: 35%;
-       margin-top: 2%;
+       margin-top: 7%;
        font-size: 30px;
        width: 100px;
     }
     .Lorem{
         font-size: 19px;
-        margin-left: 6%;
+        margin-left: 14%;
         margin-top: -1%;
         width: 300px;    
     }
     .Langues{
-        margin-left: 4%;
+        margin-left: 8%;
         font-size: 30px;
         width: 100px;
         margin-top: -2%;
     }
     .Ipsum{
-        margin-left: 5%;
+        margin-left: 11%;
         font-size: 20px;
         width: 320px;
         margin-top: -1%;
@@ -529,7 +530,7 @@
     }
     .formation
     {
-        margin-left: 25%;
+        margin-left: 35%;
         font-size: 20px;
     }
     .lorem2,
@@ -549,23 +550,23 @@
         font-size: 18px;
     }
     .pfp{
-        margin-left: 1% ;
-        margin-top: 6%;
+        margin-left: 21% ;
+        margin-top: 2%;
     }
     .profile{
-        margin-left: 35%;
+        margin-left: 32%;
     }
     .Lorem{
         font-size: 16px;
-        margin-left: 5%;
+        margin-left: 11%;
     }
     .Langues{
         margin-top: -50px;
-        margin-left: 0%;
+        margin-left: 3%;
     }
     .Ipsum{
-        margin-top: -40px;
-        margin-left: 0%;
+        margin-top: -60px;
+        margin-left: 6%;
         font-size: 17px;
     }
     .facebook{
@@ -607,7 +608,7 @@
     }
     .formation
     {
-        margin-left: 21%;
+        margin-left: 27%;
         font-size: 17px;
     }
     .ecole
@@ -628,22 +629,22 @@
         width: 310px;
     }
     .pfp{
-        margin-left: 2% ;
-        margin-top: 6%;
+        margin-left: 23% ;
+        margin-top: 2%;
     }
     .profile{
         margin-left: 30%;
     }
     .Lorem{
         font-size: 17px;
-        margin-left: -3%;
+        margin-left: 4%;
     }
     .Langues{
-        margin-left: -10%;
+        margin-left: -4%;
     }
     .Ipsum{
         font-size: 17px;
-        margin-left: -10%;
+        margin-left: -1%;
     }
     .facebook{
         margin-left: 10px;
